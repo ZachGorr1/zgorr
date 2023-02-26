@@ -1,1 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import './assets/styles/abstracts/variables.scss';
+@import './assets/styles/bases/reset.scss';
+@import './assets/styles/bases/typography.scss';
+@import './assets/styles/classes/general-classes.scss';
+@import './assets/styles/classes/component.scss';

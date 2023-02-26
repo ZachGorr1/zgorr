@@ -1,0 +1,14 @@
+.main-container {
+    height: 100%;
+    width: 100%;
+    background-image: url(../assets/images/x-grid.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+
+.blur {
+    height: 100vh;
+    width: 100vw;
+    background: radial-gradient(88.59% 88.59% at 50% 49.96%, rgba(33, 22, 54,.80) 0%, rgba(31, 18, 68, 0.75) 100%);
+}

@@ -1,0 +1,30 @@
+button {
+    border-radius: $button-radius;
+    padding: .5rem 1.875rem;
+}
+
+.purple-btn {
+    background-color: $light-purple;
+    color: $dark-purple;
+}
+
+.purple-btn:hover {
+    cursor: pointer;
+    background-color: $dark-purple;
+    color: $white;
+    transition: 250ms ease-in-out;
+}
+
+.link:hover{
+    cursor: pointer;
+    color: $light-purple;
+    transition: 250ms ease-in-out;
+}
+
+.outline {
+    border: 1px solid black;
+}
+
+.purple-outline {
+    border: 1px solid $dark-purple;
+}

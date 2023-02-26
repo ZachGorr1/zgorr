@@ -1,0 +1,40 @@
+@import './../../../assets/styles/abstracts/variables';
+@import './../../../assets/styles/classes/general-classes.scss';
+
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-card {
+    height: 70%;
+    width: 70%;
+    background-color: $off-white;
+    border-radius: 10px;
+}
+
+.row {
+    margin: 1.750rem 1.562rem;
+}
+
+.mr {
+    margin-right: 2.5rem;
+}
+
+.who-am-i-copy {
+    max-width: 30.625rem;
+}
+
+.giant-logo {
+    width: 18.750rem;
+    height: 18.750rem;
+    background-color: $off-white;
+    box-shadow: 
+    35px 35px 68px rgba(0, 0, 0, 0.5),
+    inset -12px -12px 16px #CBC3E2, 
+    inset 0px 11px 28px #D6D6D6;
+    border-radius: $circle-radius;
+}
